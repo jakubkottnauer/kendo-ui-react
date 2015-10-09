@@ -28,8 +28,8 @@
   },
   "homepage": "https://github.com/jakubkottnauer/kendo-ui-react",
   "peerDependencies": {
-    "react": "0.13.0",
-    "lodash": "^3.0.0"
+    "react": ">=0.13.0",
+    "lodash": ">=3.0.0"
   },
   "devDependencies": {
     "jsdom": "^3.1.2",
