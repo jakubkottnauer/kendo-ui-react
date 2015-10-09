@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - '0.12'
+
+sudo: false
+
+notifications:
+  email: false
+
+before_script:
+  - npm install react lodash
+
+deploy:
+  provider: npm
+  email: jk@jakubkottnauer.com
+  on:
+    tags: true
+    repo: jakubkottnauer/kendo-ui-react
+    all_branches: true

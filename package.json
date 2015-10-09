@@ -1,0 +1,44 @@
+{
+  "name": "kendo-ui-react",
+  "version": "0.14",
+  "description": "React Component Library for Kendo UI Widgets. There exists a React Component named for every Kendo widget in the kendo.ui namespace. Tested on React 0.14 and KendoUI 2015.2.902.",
+  "main": "lib/index.js",
+  "scripts": {
+    "dist": "browserify lib/index.js -o dist/kendo-ui-react.js --standalone ReactKendo -t browserify-shim",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakubkottnauer/kendo-ui-react.git"
+  },
+  "keywords": [
+    "react",
+    "kendo",
+    "react.js",
+    "react-component",
+    "kendo-ui",
+    "telerik",
+    "components",
+    "widgets"
+  ],
+  "author": "Jakub Kottnauer <jk@jakubkottnauer.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakubkottnauer/kendo-ui-react/issues"
+  },
+  "homepage": "https://github.com/jakubkottnauer/kendo-ui-react",
+  "peerDependencies": {
+    "react": ">=0.14.0",
+    "lodash": ">=3.0.0"
+  },
+  "devDependencies": {
+    "jsdom": "^3.1.2",
+    "mocha": "^2.1.0",
+    "browserify": "^10.2.4",
+    "browserify-shim": "^3.8.8"
+  },
+   "browserify-shim": {
+    "react": "global:React",
+    "lodash": "global:_"
+  }
+}
