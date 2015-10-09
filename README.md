@@ -1,4 +1,4 @@
-# react-kendo
+# kendo-ui-react
 
 [![npm version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
@@ -149,3 +149,5 @@ MIT
 [npm-url]: https://npmjs.org/package/kendo-ui-react
 [travis-image]: https://img.shields.io/travis/jakubkottnauer/kendo-ui-react.svg?style=flat-square
 [travis-url]: https://travis-ci.org/jakubkottnauer/kendo-ui-react
+[daviddm-image]: http://img.shields.io/david/jakubkottnauer/kendo-ui-react.svg?style=flat-square
+[daviddm-url]: https://david-dm.org/jakubkottnauer/kendo-ui-react
