@@ -1,6 +1,6 @@
 {
   "name": "kendo-ui-react",
-  "version": "0.13.0",
+  "version": "0.14.1",
   "description": "React Component Library for Kendo UI Widgets. There exists a React Component named for every Kendo widget in the kendo.ui namespace. Tested on React 0.14 and KendoUI 2015.2.902.",
   "main": "lib/index.js",
   "scripts": {
@@ -28,7 +28,8 @@
   },
   "homepage": "https://github.com/jakubkottnauer/kendo-ui-react",
   "peerDependencies": {
-    "react": ">=0.13.0",
+    "react": ">=0.14.0",
+    "react-dom": ">=0.14.0",
     "lodash": ">=3.0.0"
   },
   "devDependencies": {
