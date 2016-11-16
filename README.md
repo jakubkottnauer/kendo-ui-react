@@ -1,4 +1,4 @@
-# kendo-ui-react
+# kendo-ui-react - NOT MAINTAINED
 
 [![npm version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
